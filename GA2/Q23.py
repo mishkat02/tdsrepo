@@ -16,7 +16,7 @@ def execute(question: str, parameter):
   return cache[parameter["email"]]
     
 def gitPortfolio(email):
-  return f"https://akashkunwar.github.io/TDS-portfolio/?email={email}"
+  return f"https://mishkat02.github.io/tdsrepo/?email={email}"
 
 
 # def extract_email_from_question(question: str) -> str:
