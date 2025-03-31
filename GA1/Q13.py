@@ -19,7 +19,7 @@ def run_git_workflow(email):
     GITHUB_TOKEN = "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"  # Replace with your actual token
 
     # GitHub API endpoint
-    url = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
+    url = f"https://api.github.com/repos/mishkat02/tdsrepo/actions/workflows/{main.yml}/dispatches"
 
     # API request headers
     headers = {
